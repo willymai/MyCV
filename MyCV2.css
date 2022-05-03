@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ava {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 25px;
+}
+.tq{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(173, 21, 243);
+    border-radius: 50%;
+    border: 1px red;
+    overflow: 0;
+
+}
+
+.tq:hover {
+    width: 350px;
+    height: 450px;
+    background-color: rgb(173, 21, 243);
+    border-radius: 20px;
+    overflow: 1;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40rem;
+}
+.tt{
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.5;
+}
+a{
+    color: white;
+}
+.tq:hover .tt{
+    opacity: 1;
+    transition: 0.5;
+}
+.icon{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.icon1{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.icon1, .icon {
+    transform: translateX(-60px);
+    opacity: 0;
+    transition: 0.5;
+}
+
+.tq:hover .icon {
+    transform: translateX(0px);
+    opacity: 1;
+}
+.tq:hover .icon1 {
+    transform: translateX(0px);
+    opacity: 1;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color:rgb(173, 21, 243);
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color:rgb(173, 21, 243);
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+a{
+    padding-left: 10px;
+}
+
+
+
+
